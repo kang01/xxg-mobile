@@ -13,6 +13,8 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { TabsPage } from '../pages/tabs/tabs';
+import { EquipmentInfoPage } from '../pages/equipment-info/equipment-info';
+import { MonitoringPage } from '../pages/monitoring/monitoring';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { TabsPage } from '../pages/tabs/tabs';
     LoginPage,
     HomePage,
     MenuPage,
-    TabsPage
+    TabsPage,
+    EquipmentInfoPage,
+    MonitoringPage
   ],
   imports: [
     BrowserModule,
@@ -44,7 +48,9 @@ import { TabsPage } from '../pages/tabs/tabs';
     LoginPage,
     HomePage,
     MenuPage,
-    TabsPage
+    TabsPage,
+    EquipmentInfoPage,
+    MonitoringPage
   ],
   providers: [
     StatusBar,
