@@ -1,14 +1,21 @@
+import { ListPage } from './../list/list';
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
-
+import { NavController, MenuController, Platform, IonicPage } from 'ionic-angular';
+@IonicPage()
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
-
-  constructor(public navCtrl: NavController) {
-
+ 
+  tab1Root = ListPage;
+  tab2Root = ListPage;
+  tab3Root = HomePage;
+  constructor(
+    public navCtrl: NavController,
+  ) {}
+  search(){
+    
   }
 
 }
